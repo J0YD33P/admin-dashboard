@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.interface-button,
+.user-button{
+    border: 0;
+    border-radius: 100px;
+    padding: 0.6em;
+}
+
+.interface-button{
+    background: none;
+}
